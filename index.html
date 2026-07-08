@@ -72,14 +72,17 @@
 
         <a href="#projects" class="btn"> View Projects </a>
         <a href="#contact" class="btn secondary-btn"> Contact Me </a>
-
+        <a href="files/Marsilas-Fikru-CV.pdf" class="btn" target="_blank">
+          <i class="fa-solid fa-eye"></i> View CV
+        </a>
         <a
           href="files/Marsilas-Fikru-CV.pdf"
-          class="btn"
+          class="cv-btn"
           target="_blank"
           download
         >
-          <i class="fa-solid fa-download"></i> Download CV
+          <i class="fa-solid fa-download"></i>
+          Download CV
         </a>
       </div>
 
@@ -322,3 +325,11 @@
     <script src="js/script.js"></script>
   </body>
 </html>
+/* ================= CV BUTTON ================= */ .cv-btn { display:
+inline-flex; align-items: center; gap: 10px; margin-top: 30px; padding: 15px
+35px; background: linear-gradient(135deg, #7e22ce, #a855f7); color: white;
+text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 16px;
+box-shadow: 0 0 20px rgba(168, 85, 247, 0.4); transition: all 0.3s ease; }
+.cv-btn i { font-size: 18px; } .cv-btn:hover { transform: translateY(-4px);
+background: linear-gradient(135deg, #9333ea, #c084fc); box-shadow: 0 0 30px
+rgba(192, 132, 252, 0.6); } .cv-btn:active { transform: scale(0.97); }
