@@ -231,6 +231,19 @@ body {
 
   line-height: 1.9;
 }
+.objective {
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.objective p {
+  max-width: 900px;
+  margin: 25px auto;
+  background: #1e1233;
+  padding: 30px;
+  border-radius: 15px;
+  line-height: 1.8;
+}
 /* ================= EDUCATION ================= */
 
 .education {
@@ -358,44 +371,37 @@ body {
   margin-top: 20px;
 }
 
-.btn,
 .btn-outline {
+  border: 2px solid #c084fc;
+  color: #c084fc;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;
 }
 
-.btn {
-  background: #c084fc;
-  color: #fff;
-}
-
-.btn:hover {
-  background: #0ea5e9;
-}
-
-.btn-outline {
-  border: 2px solid #c084fc;
-  color: #38bdf8;
-}
-
 .btn-outline:hover {
   background: #c084fc;
-  color: #fff;
+  color: white;
 }
+
 .secondary-btn {
+  display: inline-block;
+  padding: 15px 35px;
   background: transparent;
-
   border: 2px solid #38bdf8;
-
-  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 .secondary-btn:hover {
-  background: #c084fc;
-
+  background: #9333ea;
+  border-color: #9333ea;
   color: white;
+  transform: translateY(-5px);
 }
 .project-card img {
   width: 100%;
@@ -707,4 +713,10 @@ section {
 
 .cv-btn:active {
   transform: scale(0.97);
+}
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
 }
